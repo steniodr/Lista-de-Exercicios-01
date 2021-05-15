@@ -7,7 +7,7 @@ int main(void) {
   printf("Digite o valor do depósito: ");
   scanf("%f", &value);
   
-  printf("Digite a taxa de juros (Valor em \%): ");
+  printf("Digite a taxa de juros (Valor em %%): ");
   scanf("%f", &rate);
   
   income = value * rate / 100;
